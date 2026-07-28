@@ -851,7 +851,19 @@ footer {
     .journey-timeline::before {
         left: 30px;
     }
+.btn {
+  display: inline-block;
+  background: #2c3e50;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
 
+.btn:hover {
+  background: #1abc9c;
+}
     .timeline-item {
         flex-direction: row !important;
         margin-bottom: 40px;
